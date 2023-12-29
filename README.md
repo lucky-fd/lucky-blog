@@ -1,10 +1,6 @@
-# 蘑菇博客
+# 
 
-<p align=center>
-  <a href="http://www.moguit.cn">
-    <img src="./doc/images/gitee/favicon2.ico" alt="蘑菇博客" style="width:200px;height:200px">
-  </a>
-</p>
+
 <p align=center>
    蘑菇博客，一个基于微服务架构的前后端分离博客系统
 </p>
@@ -30,9 +26,7 @@
 
 [**陌溪**](https://gitee.com/moxi159753/LearningNotes/raw/master/doc/images/qq/添加陌溪.png) 是一个从三本院校一路摸滚翻爬上来的程序员。目前就职于字节跳动的Data商业化广告部门，是字节跳动全线产品的商业变现研发团队。这两天创建了一个 **微信公众号【[陌溪教你学编程](https://gitee.com/moxi159753/LearningNotes/raw/master/doc/images/qq/公众号2.jpg)】**，未来将会在公众号上持续性的输出很多原创小知识以及学习资源，欢迎各位小伙伴关注我，和我一起共同学习，同时我也希望各位小伙伴能够给**蘑菇博客**项目多多 **Star** 支持，您的**点赞**就是我维护的动力！
 
-<p align=center>
-    <img src="./doc/images/qq/公众号2.jpg" width="500" />
-</p>
+
 
 项目已有较详细的  [项目搭建文档](http://moxi159753.gitee.io/mogu_blog_doc) ，同时包括了 **Windows**、**Linux** 以及 **Docker** 环境下蘑菇博客的搭建。在使用过程中遇到问题时，首先认真阅读**项目搭建文档** ，同时 [FAQ文档](http://www.moguit.cn/info/288) 还收集了小伙伴咨询的问题，可以提前阅读~
 
@@ -89,9 +83,6 @@
 >
 > 【小程序】蘑菇博客的移动端版本，可以扫码体验。参考 [蘑菇博客小程序部署](http://www.moguit.cn/info/605) 文档，以及Bilibili上 [20分钟部署博客小程序视频](https://www.bilibili.com/video/BV1sQ4y117nN) 完成小程序的搭建。
 
-|                                                          |
-| :------------------------------------------------------: |
-| <img src="./doc/images/uniapp/wxCode.jpg" width="200" /> |
 
 ## 后期维护
 
@@ -131,7 +122,7 @@
 
 - **后台登录**：用户：admin，密码：mogu2018
 - 前台登录：用户：mogu2018，密码：mogu2018
-- **Mysql**：用户：root，密码：mogu2018
+- **Mysql**：用户：root，密码：mysql123.
 - **Redis**：密码：mogu2018
 - **远程SSH初始密码**：用户：root，密码：mogu2018
 - **RabbitMQ管理页面：** 用户：admin，密码：mogu2018

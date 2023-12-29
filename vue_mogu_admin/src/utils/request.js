@@ -11,7 +11,7 @@ const service = axios.create({
 })
 
 // 传递token
-service.defaults.headers.common['Authorization'] = getToken()
+service.defaults.headers.common['Authentication'] = getToken()
 
 // 请求计数器
 var requestNum = 0;
@@ -22,7 +22,7 @@ service.interceptors.request.use(
   config => {
     if (store.getters.token) {
       // 让每个请求携带自定义token 请根据实际情况自行修改
-      config.headers.Authorization = getToken()
+      config.headers.Authentication = getToken()
     }
 
     // 请求加1

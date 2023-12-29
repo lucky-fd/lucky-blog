@@ -1,6 +1,6 @@
 export const appConfig = {
 
-	tokenKey: 'Authorization',
+	tokenKey: 'Authentication',
 
 	// 开发环境
 	//    WEB_API: 'http://localhost:8607/mogu-web',

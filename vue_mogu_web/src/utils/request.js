@@ -7,13 +7,14 @@ const service = axios.create({
   timeout: 20000 // 请求超时时间 10秒
 })
 
-service.defaults.headers.common['Authorization'] = getCookie("token")
+service.defaults.headers.common['Authentication'] = getCookie("token")
 
 // request拦截器
 service.interceptors.request.use(
   config => {
+    console.log(config)
     if (getCookie("token") != undefined) {
-      config.headers.Authorization = getCookie("token") // 让每个请求携带自定义token 请根据实际情况自行修改
+      config.headers.Authentication = getCookie("token") // 让每个请求携带自定义token 请根据实际情况自行修改
     }
     return config
   },

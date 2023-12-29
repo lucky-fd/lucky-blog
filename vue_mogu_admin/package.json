@@ -13,6 +13,7 @@
     "test": "npm run lint"
   },
   "dependencies": {
+    "2015": "0.0.1",
     "axios": "0.18.1",
     "ckeditor": "^4.10.1",
     "clipboard": "^2.0.6",
