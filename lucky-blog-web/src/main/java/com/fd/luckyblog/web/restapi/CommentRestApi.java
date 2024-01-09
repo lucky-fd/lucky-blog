@@ -1,17 +1,17 @@
-package com.moxi.mogublog.web.restapi;
+package com.fd.luckyblog.web.restapi;
 
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.fd.luckyblog.web.annotion.log.BussinessLog;
+import com.fd.luckyblog.web.global.MessageConf;
+import com.fd.luckyblog.web.global.RedisConf;
+import com.fd.luckyblog.web.global.SQLConf;
+import com.fd.luckyblog.web.global.SysConf;
 import com.moxi.mogublog.commons.entity.*;
 import com.moxi.mogublog.commons.feign.PictureFeignClient;
 import com.moxi.mogublog.utils.*;
-import com.moxi.mogublog.web.annotion.log.BussinessLog;
-import com.moxi.mogublog.web.global.MessageConf;
-import com.moxi.mogublog.web.global.RedisConf;
-import com.moxi.mogublog.web.global.SQLConf;
-import com.moxi.mogublog.web.global.SysConf;
 import com.moxi.mogublog.xo.service.*;
 import com.moxi.mogublog.xo.utils.RabbitMqUtil;
 import com.moxi.mogublog.xo.utils.WebUtil;

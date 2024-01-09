@@ -1,4 +1,4 @@
-package com.moxi.mogublog.web.restapi;
+package com.fd.luckyblog.web.restapi;
 
 
 import cn.hutool.http.HttpRequest;
@@ -8,9 +8,9 @@ import com.moxi.mogublog.commons.entity.User;
 import com.moxi.mogublog.commons.feign.PictureFeignClient;
 import com.moxi.mogublog.utils.*;
 import com.moxi.mogublog.utils.wechat.SignUtil;
-import com.moxi.mogublog.web.global.RedisConf;
-import com.moxi.mogublog.web.global.SQLConf;
-import com.moxi.mogublog.web.global.SysConf;
+import com.fd.luckyblog.web.global.RedisConf;
+import com.fd.luckyblog.web.global.SQLConf;
+import com.fd.luckyblog.web.global.SysConf;
 import com.moxi.mogublog.xo.service.SystemConfigService;
 import com.moxi.mogublog.xo.service.UserService;
 import com.moxi.mogublog.xo.utils.WebUtil;

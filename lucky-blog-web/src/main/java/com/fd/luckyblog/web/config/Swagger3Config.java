@@ -1,4 +1,4 @@
-package com.moxi.mogublog.web.config;
+package com.fd.luckyblog.web.config;
 
 import io.swagger.annotations.ApiOperation;
 import org.springframework.context.annotation.Bean;

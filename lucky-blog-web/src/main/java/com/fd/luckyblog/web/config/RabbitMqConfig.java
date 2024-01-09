@@ -1,4 +1,4 @@
-package com.moxi.mogublog.web.config;
+package com.fd.luckyblog.web.config;
 
 import org.springframework.amqp.support.converter.Jackson2JsonMessageConverter;
 import org.springframework.amqp.support.converter.MessageConverter;

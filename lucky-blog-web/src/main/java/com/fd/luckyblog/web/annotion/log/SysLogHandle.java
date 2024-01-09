@@ -1,4 +1,4 @@
-package com.moxi.mogublog.web.annotion.log;
+package com.fd.luckyblog.web.annotion.log;
 
 import com.moxi.mogublog.commons.entity.WebVisit;
 import com.moxi.mogublog.utils.IpUtils;

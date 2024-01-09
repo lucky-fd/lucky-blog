@@ -1,4 +1,4 @@
-package com.moxi.mogublog.web.annotion.requestLimit;
+package com.fd.luckyblog.web.annotion.requestLimit;
 
 
 import org.springframework.core.Ordered;

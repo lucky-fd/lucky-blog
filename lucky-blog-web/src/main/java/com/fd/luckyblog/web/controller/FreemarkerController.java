@@ -1,4 +1,4 @@
-package com.moxi.mogublog.web.controller;
+package com.fd.luckyblog.web.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.moxi.mogublog.commons.entity.Blog;

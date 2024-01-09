@@ -1,4 +1,4 @@
-package com.moxi.mogublog.web.config;
+package com.fd.luckyblog.web.config;
 
 import io.lettuce.core.ClientOptions;
 import org.bouncycastle.crypto.tls.ProtocolVersion;

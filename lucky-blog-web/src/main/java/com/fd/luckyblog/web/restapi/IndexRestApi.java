@@ -1,16 +1,16 @@
-package com.moxi.mogublog.web.restapi;
+package com.fd.luckyblog.web.restapi;
 
 
+import com.fd.luckyblog.web.annotion.log.BussinessLog;
+import com.fd.luckyblog.web.annotion.requestLimit.RequestLimit;
+import com.fd.luckyblog.web.global.MessageConf;
+import com.fd.luckyblog.web.global.SysConf;
 import com.moxi.mogublog.commons.entity.Link;
 import com.moxi.mogublog.commons.entity.Tag;
 import com.moxi.mogublog.utils.JsonUtils;
 import com.moxi.mogublog.utils.RedisUtil;
 import com.moxi.mogublog.utils.ResultUtil;
 import com.moxi.mogublog.utils.StringUtils;
-import com.moxi.mogublog.web.annotion.log.BussinessLog;
-import com.moxi.mogublog.web.annotion.requestLimit.RequestLimit;
-import com.moxi.mogublog.web.global.MessageConf;
-import com.moxi.mogublog.web.global.SysConf;
 import com.moxi.mogublog.xo.global.RedisConf;
 import com.moxi.mogublog.xo.service.*;
 import com.moxi.mougblog.base.enums.EBehavior;

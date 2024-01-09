@@ -1,7 +1,7 @@
-package com.moxi.mogublog.web.restapi;
+package com.fd.luckyblog.web.restapi;
 
 
-import com.moxi.mogublog.web.annotion.log.BussinessLog;
+import com.fd.luckyblog.web.annotion.log.BussinessLog;
 import com.moxi.mogublog.xo.service.BlogService;
 import com.moxi.mougblog.base.enums.EBehavior;
 import io.swagger.annotations.Api;

@@ -1,4 +1,4 @@
-package com.moxi.mogublog.web.global;
+package com.fd.luckyblog.web.global;
 
 import com.moxi.mougblog.base.global.BaseSQLConf;
 

@@ -1,4 +1,4 @@
-package com.moxi.mogublog.web.config;
+package com.fd.luckyblog.web.config;
 
 import com.moxi.mogublog.utils.JsonUtils;
 import com.moxi.mogublog.utils.StringUtils;
@@ -50,5 +50,5 @@ public class AuthenticationTokenFilter extends OncePerRequestFilter {
         chain.doFilter(request, response);
     }
 }
-		
+
 

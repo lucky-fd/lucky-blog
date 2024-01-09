@@ -1,4 +1,4 @@
-package com.moxi.mogublog.web.annotion.requestLimit;
+package com.fd.luckyblog.web.annotion.requestLimit;
 
 import com.moxi.mogublog.utils.AspectUtil;
 import com.moxi.mogublog.utils.IpUtils;

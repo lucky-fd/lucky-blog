@@ -1,4 +1,4 @@
-package com.moxi.mogublog.web.annotion.requestLimit;
+package com.fd.luckyblog.web.annotion.requestLimit;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
