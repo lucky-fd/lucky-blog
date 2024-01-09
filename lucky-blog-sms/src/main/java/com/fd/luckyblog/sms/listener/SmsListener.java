@@ -1,6 +1,6 @@
-package com.moxi.mogublog.sms.listener;
+package com.fd.luckyblog.sms.listener;
 
-import com.moxi.mogublog.sms.util.SmsUtil;
+import com.fd.luckyblog.sms.util.SmsUtil;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

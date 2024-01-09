@@ -1,4 +1,4 @@
-package com.moxi.mogublog.sms.util;
+package com.fd.luckyblog.sms.util;
 
 import com.aliyuncs.DefaultAcsClient;
 import com.aliyuncs.IAcsClient;

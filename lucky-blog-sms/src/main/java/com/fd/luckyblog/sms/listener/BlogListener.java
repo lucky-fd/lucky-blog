@@ -1,9 +1,9 @@
-package com.moxi.mogublog.sms.listener;
+package com.fd.luckyblog.sms.listener;
 
 import com.moxi.mogublog.commons.feign.SearchFeignClient;
 import com.moxi.mogublog.commons.feign.WebFeignClient;
-import com.moxi.mogublog.sms.global.RedisConf;
-import com.moxi.mogublog.sms.global.SysConf;
+import com.fd.luckyblog.sms.global.RedisConf;
+import com.fd.luckyblog.sms.global.SysConf;
 import com.moxi.mogublog.utils.JsonUtils;
 import com.moxi.mogublog.utils.RedisUtil;
 import com.moxi.mogublog.utils.SpringUtils;

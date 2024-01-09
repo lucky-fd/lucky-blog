@@ -1,4 +1,4 @@
-package com.moxi.mogublog.sms.util;
+package com.fd.luckyblog.sms.util;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
@@ -61,4 +61,4 @@ public class SendMailUtils {
             log.error(e.getMessage());
         }
     }
-} 
+}

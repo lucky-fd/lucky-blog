@@ -1,4 +1,4 @@
-package com.moxi.mogublog.sms.config;
+package com.fd.luckyblog.sms.config;
 
 import io.lettuce.core.ClientOptions;
 import org.springframework.boot.autoconfigure.data.redis.LettuceClientConfigurationBuilderCustomizer;

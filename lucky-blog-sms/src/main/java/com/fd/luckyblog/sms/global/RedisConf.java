@@ -1,4 +1,4 @@
-package com.moxi.mogublog.sms.global;
+package com.fd.luckyblog.sms.global;
 
 import com.moxi.mougblog.base.global.BaseRedisConf;
 

@@ -1,4 +1,4 @@
-package com.moxi.mogublog.sms;
+package com.fd.luckyblog.sms;
 
 import org.springframework.amqp.rabbit.annotation.EnableRabbit;
 import org.springframework.boot.SpringApplication;
@@ -18,7 +18,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
         "com.moxi.mogublog.utils",
         "com.moxi.mogublog.commons.config.feign",
         "com.moxi.mogublog.commons.fallback",
-        "com.moxi.mogublog.sms",
+        "com.fd.luckyblog.sms",
 })
 public class SmsApplication {
 

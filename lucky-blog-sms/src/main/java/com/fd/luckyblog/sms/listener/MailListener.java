@@ -1,6 +1,6 @@
-package com.moxi.mogublog.sms.listener;
+package com.fd.luckyblog.sms.listener;
 
-import com.moxi.mogublog.sms.util.SendMailUtils;
+import com.fd.luckyblog.sms.util.SendMailUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.beans.factory.annotation.Autowired;
