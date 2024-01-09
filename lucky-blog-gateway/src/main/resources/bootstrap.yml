@@ -53,10 +53,10 @@ spring:
             # 此处配置去掉 1 个路径前缀，再配置上面的 Path=/api/**，就能按照 http://localhost:8888/api/** 的方式访问了
             - StripPrefix=1
 
-        - id: mogu_web
-          uri: lb://mogu-web
+        - id: lucky-blog-web
+          uri: lb://lucky-blog-web
           predicates:
-            - Path=/mogu-web/**
+            - Path=/lucky-blog-web/**
           filters:
             - StripPrefix=1
         - id: mogu_search
@@ -65,10 +65,10 @@ spring:
             - Path=/mogu-search/**
           filters:
             - StripPrefix=1
-        - id: mogu_picture
-          uri: lb://mogu-picture
+        - id: lucky-blog-file
+          uri: lb://lucky-blog-file
           predicates:
-            - Path=/mogu-picture/**
+            - Path=/lucky-blog-file/**
           filters:
             - StripPrefix=1
         - id: mogu_spider
