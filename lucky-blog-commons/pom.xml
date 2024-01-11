@@ -14,8 +14,8 @@
 
     <dependencies>
         <dependency>
-            <artifactId>lucky-blog-base</artifactId>
             <groupId>com.moxi</groupId>
+            <artifactId>lucky-blog-base</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
