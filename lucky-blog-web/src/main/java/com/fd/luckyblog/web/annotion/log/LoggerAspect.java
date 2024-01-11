@@ -1,13 +1,13 @@
 package com.fd.luckyblog.web.annotion.log;
 
+import com.fd.luckyblog.base.enums.EBehavior;
+import com.fd.luckyblog.base.holder.RequestHolder;
+import com.fd.luckyblog.base.util.RequestUtil;
 import com.fd.luckyblog.utils.AopUtils;
 import com.fd.luckyblog.utils.AspectUtil;
 import com.fd.luckyblog.utils.IpUtils;
 import com.fd.luckyblog.utils.RedisUtil;
-import com.moxi.mogublog.web.global.SysConf;
-import com.fd.luckyblog.base.enums.EBehavior;
-import com.fd.luckyblog.base.holder.RequestHolder;
-import com.fd.luckyblog.base.util.RequestUtil;
+import com.fd.luckyblog.web.global.SysConf;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;

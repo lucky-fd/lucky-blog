@@ -1,8 +1,8 @@
 <project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <groupId>com.moxi</groupId>
-        <artifactId>mogu_blog</artifactId>
+        <groupId>com.fd</groupId>
+        <artifactId>lucky-blog</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
@@ -15,7 +15,7 @@
     <dependencies>
         <dependency>
             <artifactId>lucky-blog-commons</artifactId>
-            <groupId>com.moxi</groupId>
+            <groupId>com.fd</groupId>
             <version>0.0.1-SNAPSHOT</version>
             <exclusions>
                 <exclusion>

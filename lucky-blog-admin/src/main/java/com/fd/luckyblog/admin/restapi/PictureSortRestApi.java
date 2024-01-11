@@ -7,8 +7,8 @@ import com.fd.luckyblog.admin.annotion.AvoidRepeatableCommit.AvoidRepeatableComm
 import com.fd.luckyblog.admin.annotion.OperationLogger.OperationLogger;
 import com.fd.luckyblog.commons.entity.PictureSort;
 import com.fd.luckyblog.utils.ResultUtil;
-import com.moxi.mogublog.xo.service.PictureSortService;
-import com.moxi.mogublog.xo.vo.PictureSortVO;
+import com.fd.luckyblog.xo.service.PictureSortService;
+import com.fd.luckyblog.xo.vo.PictureSortVO;
 import com.fd.luckyblog.base.exception.ThrowableUtils;
 import com.fd.luckyblog.base.validator.group.Delete;
 import com.fd.luckyblog.base.validator.group.GetList;

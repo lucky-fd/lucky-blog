@@ -8,8 +8,8 @@ import com.fd.luckyblog.admin.annotion.AvoidRepeatableCommit.AvoidRepeatableComm
 import com.fd.luckyblog.admin.annotion.OperationLogger.OperationLogger;
 import com.fd.luckyblog.utils.ResultUtil;
 import com.fd.luckyblog.utils.StringUtils;
-import com.moxi.mogublog.xo.service.SysDictDataService;
-import com.moxi.mogublog.xo.vo.SysDictDataVO;
+import com.fd.luckyblog.xo.service.SysDictDataService;
+import com.fd.luckyblog.xo.vo.SysDictDataVO;
 import com.fd.luckyblog.base.exception.ThrowableUtils;
 import com.fd.luckyblog.base.validator.group.Delete;
 import com.fd.luckyblog.base.validator.group.GetList;

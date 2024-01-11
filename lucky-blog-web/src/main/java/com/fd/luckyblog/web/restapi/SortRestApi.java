@@ -2,7 +2,7 @@ package com.fd.luckyblog.web.restapi;
 
 
 import com.fd.luckyblog.web.annotion.log.BussinessLog;
-import com.moxi.mogublog.xo.service.BlogService;
+import com.fd.luckyblog.xo.service.BlogService;
 import com.fd.luckyblog.base.enums.EBehavior;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

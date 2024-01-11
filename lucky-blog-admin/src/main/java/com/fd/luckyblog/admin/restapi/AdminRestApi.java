@@ -3,8 +3,8 @@ package com.fd.luckyblog.admin.restapi;
 
 import com.fd.luckyblog.admin.annotion.AuthorityVerify.AuthorityVerify;
 import com.fd.luckyblog.admin.annotion.OperationLogger.OperationLogger;
-import com.moxi.mogublog.xo.service.AdminService;
-import com.moxi.mogublog.xo.vo.AdminVO;
+import com.fd.luckyblog.xo.service.AdminService;
+import com.fd.luckyblog.xo.vo.AdminVO;
 import com.fd.luckyblog.base.exception.ThrowableUtils;
 import com.fd.luckyblog.base.validator.group.GetList;
 import com.fd.luckyblog.base.validator.group.Insert;

@@ -31,8 +31,8 @@ import java.util.TimeZone;
         "com.fd.luckyblog.commons.fallback",
         "com.fd.luckyblog.utils",
         "com.fd.luckyblog.admin",
-        "com.moxi.mogublog.xo.utils",
-        "com.moxi.mogublog.xo.service"
+        "com.fd.luckyblog.xo.utils",
+        "com.fd.luckyblog.xo.service"
 })
 public class AdminApplication {
 

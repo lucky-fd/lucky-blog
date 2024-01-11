@@ -3,7 +3,7 @@ package com.fd.luckyblog.web.restapi;
 
 import com.fd.luckyblog.utils.ResultUtil;
 import com.fd.luckyblog.web.global.SysConf;
-import com.moxi.mogublog.xo.service.SysDictDataService;
+import com.fd.luckyblog.xo.service.SysDictDataService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;

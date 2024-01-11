@@ -24,9 +24,9 @@ import java.util.TimeZone;
         "com.fd.luckyblog.commons.config",
         "com.fd.luckyblog.commons.fallback",
         "com.fd.luckyblog.utils",
-        "com.moxi.mogublog.xo.utils",
+        "com.fd.luckyblog.xo.utils",
         "com.fd.luckyblog.web",
-        "com.moxi.mogublog.xo.service"})
+        "com.fd.luckyblog.xo.service"})
 public class WebApplication {
 
     public static void main(String[] args) {
