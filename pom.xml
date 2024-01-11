@@ -54,13 +54,13 @@
         <module>mogu_utils</module>
         <module>mogu_base</module>
         <module>mogu_xo</module>
-        <module>mogu_admin</module>
-        <module>mogu_web</module>
-        <module>mogu_picture</module>
-        <module>mogu_sms</module>
+        <module>lucky-blog-admin</module>
+        <module>lucky-blog-web</module>
+        <module>lucky-blog-file</module>
+        <module>lucky-blog-sms</module>
         <module>mogu_search</module>
         <module>mogu_monitor</module>
-        <module>mogu_gateway</module>
+        <module>lucky-blog-gateway</module>
         <module>mogu_zipkin</module>
         <module>mogu_spider</module>
         <module>mogu_commons</module>
