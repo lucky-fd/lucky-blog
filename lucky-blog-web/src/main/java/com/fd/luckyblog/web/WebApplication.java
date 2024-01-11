@@ -1,5 +1,6 @@
 package com.fd.luckyblog.web;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
@@ -27,6 +28,7 @@ import java.util.TimeZone;
         "com.fd.luckyblog.xo.utils",
         "com.fd.luckyblog.web",
         "com.fd.luckyblog.xo.service"})
+@MapperScan("com.fd.luckyblog.xo.mapper")
 public class WebApplication {
 
     public static void main(String[] args) {

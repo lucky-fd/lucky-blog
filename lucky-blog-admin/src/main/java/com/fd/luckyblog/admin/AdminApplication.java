@@ -1,5 +1,6 @@
 package com.fd.luckyblog.admin;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.amqp.rabbit.annotation.EnableRabbit;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -34,6 +35,7 @@ import java.util.TimeZone;
         "com.fd.luckyblog.xo.utils",
         "com.fd.luckyblog.xo.service"
 })
+@MapperScan("com.fd.luckyblog.xo.mapper")
 public class AdminApplication {
 
     public static void main(String[] args) {
