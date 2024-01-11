@@ -1,7 +1,7 @@
 package com.fd.luckyblog.spider.service;
 
 import com.fd.luckyblog.spider.entity.BlogSpider;
-import com.moxi.mougblog.base.service.SuperService;
+import com.fd.luckyblog.base.service.SuperService;
 
 /**
  * <p>

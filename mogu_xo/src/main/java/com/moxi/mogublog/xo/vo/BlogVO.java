@@ -1,12 +1,12 @@
 package com.moxi.mogublog.xo.vo;
 
-import com.moxi.mogublog.commons.entity.BlogSort;
-import com.moxi.mogublog.commons.entity.Tag;
-import com.moxi.mougblog.base.validator.annotion.IntegerNotNull;
-import com.moxi.mougblog.base.validator.annotion.NotBlank;
-import com.moxi.mougblog.base.validator.group.Insert;
-import com.moxi.mougblog.base.validator.group.Update;
-import com.moxi.mougblog.base.vo.BaseVO;
+import com.fd.luckyblog.commons.entity.BlogSort;
+import com.fd.luckyblog.commons.entity.Tag;
+import com.fd.luckyblog.base.validator.annotion.IntegerNotNull;
+import com.fd.luckyblog.base.validator.annotion.NotBlank;
+import com.fd.luckyblog.base.validator.group.Insert;
+import com.fd.luckyblog.base.validator.group.Update;
+import com.fd.luckyblog.base.vo.BaseVO;
 import lombok.Data;
 
 import java.util.List;

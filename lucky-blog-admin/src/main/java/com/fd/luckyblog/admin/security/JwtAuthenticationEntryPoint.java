@@ -2,8 +2,8 @@ package com.fd.luckyblog.admin.security;
 
 import com.alibaba.fastjson.JSONObject;
 import com.baomidou.mybatisplus.core.toolkit.StringUtils;
-import com.moxi.mougblog.base.global.Constants;
-import com.moxi.mougblog.base.global.ECode;
+import com.fd.luckyblog.base.global.Constants;
+import com.fd.luckyblog.base.global.ECode;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.AuthenticationEntryPoint;
 import org.springframework.stereotype.Component;

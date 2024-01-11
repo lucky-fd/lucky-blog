@@ -1,7 +1,7 @@
 package com.moxi.mogublog.xo.mapper;
 
-import com.moxi.mogublog.commons.entity.WebNavbar;
-import com.moxi.mougblog.base.mapper.SuperMapper;
+import com.fd.luckyblog.commons.entity.WebNavbar;
+import com.fd.luckyblog.base.mapper.SuperMapper;
 
 /**
  * 门户页导航栏 Mapper 接口

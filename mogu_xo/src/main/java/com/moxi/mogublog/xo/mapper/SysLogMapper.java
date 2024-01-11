@@ -1,8 +1,8 @@
 package com.moxi.mogublog.xo.mapper;
 
 
-import com.moxi.mogublog.commons.entity.SysLog;
-import com.moxi.mougblog.base.mapper.SuperMapper;
+import com.fd.luckyblog.commons.entity.SysLog;
+import com.fd.luckyblog.base.mapper.SuperMapper;
 
 /**
  * 操作日志 Mapper 接口

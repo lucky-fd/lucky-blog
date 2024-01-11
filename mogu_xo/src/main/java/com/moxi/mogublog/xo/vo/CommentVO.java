@@ -1,10 +1,10 @@
 package com.moxi.mogublog.xo.vo;
 
-import com.moxi.mougblog.base.validator.annotion.NotBlank;
-import com.moxi.mougblog.base.validator.group.GetList;
-import com.moxi.mougblog.base.validator.group.GetOne;
-import com.moxi.mougblog.base.validator.group.Insert;
-import com.moxi.mougblog.base.vo.BaseVO;
+import com.fd.luckyblog.base.validator.annotion.NotBlank;
+import com.fd.luckyblog.base.validator.group.GetList;
+import com.fd.luckyblog.base.validator.group.GetOne;
+import com.fd.luckyblog.base.validator.group.Insert;
+import com.fd.luckyblog.base.vo.BaseVO;
 import lombok.Data;
 import lombok.ToString;
 

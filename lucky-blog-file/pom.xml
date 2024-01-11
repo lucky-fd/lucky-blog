@@ -24,7 +24,7 @@
     <dependencies>
 
         <dependency>
-            <artifactId>mogu_commons</artifactId>
+            <artifactId>lucky-blog-commons</artifactId>
             <groupId>com.moxi</groupId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>

@@ -1,7 +1,7 @@
 package com.moxi.mogublog.xo.mapper;
 
-import com.moxi.mogublog.commons.entity.CategoryMenu;
-import com.moxi.mougblog.base.mapper.SuperMapper;
+import com.fd.luckyblog.commons.entity.CategoryMenu;
+import com.fd.luckyblog.base.mapper.SuperMapper;
 
 /**
  * 菜单表 Mapper 接口

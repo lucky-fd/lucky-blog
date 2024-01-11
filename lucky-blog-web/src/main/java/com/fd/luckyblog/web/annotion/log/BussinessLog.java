@@ -1,7 +1,7 @@
 package com.fd.luckyblog.web.annotion.log;
 
-import com.moxi.mougblog.base.enums.EBehavior;
-import com.moxi.mougblog.base.enums.PlatformEnum;
+import com.fd.luckyblog.base.enums.EBehavior;
+import com.fd.luckyblog.base.enums.PlatformEnum;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

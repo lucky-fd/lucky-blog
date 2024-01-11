@@ -1,9 +1,9 @@
 package com.moxi.mogublog.xo.service;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.moxi.mogublog.commons.entity.PictureSort;
+import com.fd.luckyblog.commons.entity.PictureSort;
 import com.moxi.mogublog.xo.vo.PictureSortVO;
-import com.moxi.mougblog.base.service.SuperService;
+import com.fd.luckyblog.base.service.SuperService;
 
 /**
  * 图片分类表 服务类

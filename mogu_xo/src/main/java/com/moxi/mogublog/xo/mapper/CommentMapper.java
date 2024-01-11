@@ -1,7 +1,7 @@
 package com.moxi.mogublog.xo.mapper;
 
-import com.moxi.mogublog.commons.entity.Comment;
-import com.moxi.mougblog.base.mapper.SuperMapper;
+import com.fd.luckyblog.commons.entity.Comment;
+import com.fd.luckyblog.base.mapper.SuperMapper;
 
 /**
  * 评论表 Mapper 接口

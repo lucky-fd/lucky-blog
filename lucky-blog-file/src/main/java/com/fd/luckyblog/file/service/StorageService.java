@@ -1,8 +1,8 @@
 package com.fd.luckyblog.file.service;
 
-import com.moxi.mogublog.commons.entity.NetworkDisk;
-import com.moxi.mogublog.commons.entity.Storage;
-import com.moxi.mougblog.base.service.SuperService;
+import com.fd.luckyblog.commons.entity.NetworkDisk;
+import com.fd.luckyblog.commons.entity.Storage;
+import com.fd.luckyblog.base.service.SuperService;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;

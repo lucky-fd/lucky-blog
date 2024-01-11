@@ -1,12 +1,7 @@
 package com.moxi.mogublog.xo.vo;
 
-import com.baomidou.mybatisplus.annotation.TableField;
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.moxi.mougblog.base.validator.annotion.LongNotNull;
-import com.moxi.mougblog.base.validator.annotion.NotBlank;
-import com.moxi.mougblog.base.validator.group.Insert;
-import com.moxi.mougblog.base.validator.group.Update;
-import com.moxi.mougblog.base.vo.BaseVO;
+import com.fd.luckyblog.base.vo.BaseVO;
 import lombok.Data;
 import org.springframework.format.annotation.DateTimeFormat;
 

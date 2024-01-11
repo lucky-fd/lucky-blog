@@ -1,7 +1,7 @@
 package com.moxi.mogublog.xo.mapper;
 
-import com.moxi.mogublog.commons.entity.Role;
-import com.moxi.mougblog.base.mapper.SuperMapper;
+import com.fd.luckyblog.commons.entity.Role;
+import com.fd.luckyblog.base.mapper.SuperMapper;
 
 /**
  * 角色表 Mapper 接口

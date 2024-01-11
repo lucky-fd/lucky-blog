@@ -1,8 +1,8 @@
 package com.moxi.mogublog.xo.mapper;
 
 
-import com.moxi.mogublog.commons.entity.StudyVideo;
-import com.moxi.mougblog.base.mapper.SuperMapper;
+import com.fd.luckyblog.commons.entity.StudyVideo;
+import com.fd.luckyblog.base.mapper.SuperMapper;
 
 /**
  * 学习视频表 Mapper 接口

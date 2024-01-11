@@ -2,9 +2,9 @@ package com.moxi.mogublog.xo.service;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.moxi.mogublog.commons.entity.Blog;
+import com.fd.luckyblog.commons.entity.Blog;
 import com.moxi.mogublog.xo.vo.BlogVO;
-import com.moxi.mougblog.base.service.SuperService;
+import com.fd.luckyblog.base.service.SuperService;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;

@@ -25,11 +25,11 @@ import java.util.TimeZone;
 @EnableDiscoveryClient
 @EnableCaching
 @EnableRabbit
-@EnableFeignClients("com.moxi.mogublog.commons.feign")
+@EnableFeignClients("com.fd.luckyblog.commons.feign")
 @ComponentScan(basePackages = {
-        "com.moxi.mogublog.commons.config",
-        "com.moxi.mogublog.commons.fallback",
-        "com.moxi.mogublog.utils",
+        "com.fd.luckyblog.commons.config",
+        "com.fd.luckyblog.commons.fallback",
+        "com.fd.luckyblog.utils",
         "com.fd.luckyblog.admin",
         "com.moxi.mogublog.xo.utils",
         "com.moxi.mogublog.xo.service"

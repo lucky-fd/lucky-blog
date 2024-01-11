@@ -8,22 +8,22 @@ import com.fd.luckyblog.file.mapper.FileMapper;
 import com.fd.luckyblog.file.service.*;
 import com.fd.luckyblog.file.util.AboutFileUtil;
 import com.fd.luckyblog.file.util.FeignUtil;
-import com.moxi.mogublog.commons.entity.File;
-import com.moxi.mogublog.commons.entity.FileSort;
-import com.moxi.mogublog.commons.entity.SystemConfig;
-import com.moxi.mogublog.utils.FileUtils;
-import com.moxi.mogublog.utils.JsonUtils;
-import com.moxi.mogublog.utils.ResultUtil;
-import com.moxi.mogublog.utils.StringUtils;
-import com.moxi.mougblog.base.enums.EFilePriority;
-import com.moxi.mougblog.base.enums.EOpenStatus;
-import com.moxi.mougblog.base.enums.EStatus;
-import com.moxi.mougblog.base.exception.exceptionType.InsertException;
-import com.moxi.mougblog.base.global.Constants;
-import com.moxi.mougblog.base.global.ErrorCode;
-import com.moxi.mougblog.base.holder.RequestHolder;
-import com.moxi.mougblog.base.serviceImpl.SuperServiceImpl;
-import com.moxi.mougblog.base.vo.FileVO;
+import com.fd.luckyblog.commons.entity.File;
+import com.fd.luckyblog.commons.entity.FileSort;
+import com.fd.luckyblog.commons.entity.SystemConfig;
+import com.fd.luckyblog.utils.FileUtils;
+import com.fd.luckyblog.utils.JsonUtils;
+import com.fd.luckyblog.utils.ResultUtil;
+import com.fd.luckyblog.utils.StringUtils;
+import com.fd.luckyblog.base.enums.EFilePriority;
+import com.fd.luckyblog.base.enums.EOpenStatus;
+import com.fd.luckyblog.base.enums.EStatus;
+import com.fd.luckyblog.base.exception.exceptionType.InsertException;
+import com.fd.luckyblog.base.global.Constants;
+import com.fd.luckyblog.base.global.ErrorCode;
+import com.fd.luckyblog.base.holder.RequestHolder;
+import com.fd.luckyblog.base.serviceImpl.SuperServiceImpl;
+import com.fd.luckyblog.base.vo.FileVO;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -98,11 +98,11 @@ public class FileServiceImpl extends SuperServiceImpl<FileMapper, File> implemen
         } else {
             List<Map<String, Object>> list = new ArrayList<>();
             List<String> changeStringToString = StringUtils.changeStringToString(fileIds, code);
-            QueryWrapper<com.moxi.mogublog.commons.entity.File> queryWrapper = new QueryWrapper<>();
+            QueryWrapper<File> queryWrapper = new QueryWrapper<>();
             queryWrapper.in(SQLConf.UID, changeStringToString);
-            List<com.moxi.mogublog.commons.entity.File> fileList = fileService.list(queryWrapper);
+            List<File> fileList = fileService.list(queryWrapper);
             if (fileList.size() > 0) {
-                for (com.moxi.mogublog.commons.entity.File file : fileList) {
+                for (File file : fileList) {
                     if (file != null) {
                         Map<String, Object> remap = new HashMap<>();
                         // 获取七牛云地址
@@ -293,7 +293,7 @@ public class FileServiceImpl extends SuperServiceImpl<FileMapper, File> implemen
         } else {
             throw new InsertException(ErrorCode.INSERT_DEFAULT_ERROR, "文件不被允许上传, 请填写文件分类信息");
         }
-        List<com.moxi.mogublog.commons.entity.File> lists = new ArrayList<>();
+        List<File> lists = new ArrayList<>();
         //文件上传
         if (urlList != null && urlList.size() > 0) {
             for (String itemUrl : urlList) {
@@ -315,7 +315,7 @@ public class FileServiceImpl extends SuperServiceImpl<FileMapper, File> implemen
                 if (EOpenStatus.OPEN.equals(systemConfig.getUploadQiNiu())) {
                     qiNiuUrl = qiniuService.uploadPictureByUrl(itemUrl, systemConfig);
                 }
-                com.moxi.mogublog.commons.entity.File file = new com.moxi.mogublog.commons.entity.File();
+                File file = new File();
                 file.setCreateTime(new Date(System.currentTimeMillis()));
                 file.setFileSortUid(fileSort.getUid());
                 file.setFileOldName(itemUrl);

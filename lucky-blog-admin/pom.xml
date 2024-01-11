@@ -17,9 +17,16 @@
     <dependencies>
 
         <dependency>
-            <artifactId>mogu_xo</artifactId>
             <groupId>com.moxi</groupId>
+            <artifactId>mogu_xo</artifactId>
             <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.moxi</groupId>
+            <artifactId>lucky-blog-utils</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
 
         <dependency>
@@ -72,12 +79,7 @@
             <artifactId>spring-boot-admin-starter-client</artifactId>
             <version>${springBootAdmin.version}</version>
         </dependency>
-        <dependency>
-            <groupId>com.moxi</groupId>
-            <artifactId>mogu_utils</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
+
     </dependencies>
 
 

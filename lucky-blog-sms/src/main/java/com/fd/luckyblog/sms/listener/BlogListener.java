@@ -1,14 +1,14 @@
 package com.fd.luckyblog.sms.listener;
 
-import com.moxi.mogublog.commons.feign.SearchFeignClient;
-import com.moxi.mogublog.commons.feign.WebFeignClient;
+import com.fd.luckyblog.commons.feign.SearchFeignClient;
+import com.fd.luckyblog.commons.feign.WebFeignClient;
 import com.fd.luckyblog.sms.global.RedisConf;
 import com.fd.luckyblog.sms.global.SysConf;
-import com.moxi.mogublog.utils.JsonUtils;
-import com.moxi.mogublog.utils.RedisUtil;
-import com.moxi.mogublog.utils.SpringUtils;
-import com.moxi.mougblog.base.enums.ESearchModel;
-import com.moxi.mougblog.base.global.Constants;
+import com.fd.luckyblog.utils.JsonUtils;
+import com.fd.luckyblog.utils.RedisUtil;
+import com.fd.luckyblog.utils.SpringUtils;
+import com.fd.luckyblog.base.enums.ESearchModel;
+import com.fd.luckyblog.base.global.Constants;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.beans.factory.annotation.Autowired;

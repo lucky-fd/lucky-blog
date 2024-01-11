@@ -1,6 +1,6 @@
 package com.fd.luckyblog.admin.config;
 
-import com.moxi.mougblog.base.handler.HandlerExceptionResolver;
+import com.fd.luckyblog.base.handler.HandlerExceptionResolver;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

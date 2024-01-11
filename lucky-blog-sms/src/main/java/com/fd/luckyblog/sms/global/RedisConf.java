@@ -1,6 +1,6 @@
 package com.fd.luckyblog.sms.global;
 
-import com.moxi.mougblog.base.global.BaseRedisConf;
+import com.fd.luckyblog.base.global.BaseRedisConf;
 
 /**
  * Redis相关常量

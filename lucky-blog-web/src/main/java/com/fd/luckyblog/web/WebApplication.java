@@ -19,11 +19,11 @@ import java.util.TimeZone;
 @EnableOpenApi
 @EnableDiscoveryClient
 @EnableAsync
-@EnableFeignClients("com.moxi.mogublog.commons.feign")
+@EnableFeignClients("com.fd.luckyblog.commons.feign")
 @ComponentScan(basePackages = {
-        "com.moxi.mogublog.commons.config",
-        "com.moxi.mogublog.commons.fallback",
-        "com.moxi.mogublog.utils",
+        "com.fd.luckyblog.commons.config",
+        "com.fd.luckyblog.commons.fallback",
+        "com.fd.luckyblog.utils",
         "com.moxi.mogublog.xo.utils",
         "com.fd.luckyblog.web",
         "com.moxi.mogublog.xo.service"})

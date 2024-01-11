@@ -18,10 +18,10 @@ import springfox.documentation.oas.annotations.EnableOpenApi;
         RedisRepositoriesAutoConfiguration.class})
 @EnableOpenApi
 @EnableDiscoveryClient
-@EnableFeignClients("com.moxi.mogublog.commons.feign")
+@EnableFeignClients("com.fd.luckyblog.commons.feign")
 @ComponentScan(basePackages = {
-        "com.moxi.mogublog.commons.config.feign",
-        "com.moxi.mogublog.commons.handler",
+        "com.fd.luckyblog.commons.config.feign",
+        "com.fd.luckyblog.commons.handler",
 //        "com.moxi.mogublog.utils",
         "com.fd.luckyblog.search"
 })

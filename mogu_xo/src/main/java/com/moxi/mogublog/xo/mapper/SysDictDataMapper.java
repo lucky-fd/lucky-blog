@@ -1,8 +1,8 @@
 package com.moxi.mogublog.xo.mapper;
 
 
-import com.moxi.mogublog.commons.entity.SysDictData;
-import com.moxi.mougblog.base.mapper.SuperMapper;
+import com.fd.luckyblog.commons.entity.SysDictData;
+import com.fd.luckyblog.base.mapper.SuperMapper;
 
 /**
  * 字典数据 Mapper 接口

@@ -1,7 +1,7 @@
 package com.fd.luckyblog.file.service;
 
-import com.moxi.mogublog.commons.entity.FileSort;
-import com.moxi.mougblog.base.service.SuperService;
+import com.fd.luckyblog.commons.entity.FileSort;
+import com.fd.luckyblog.base.service.SuperService;
 
 /**
  * <p>

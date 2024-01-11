@@ -1,12 +1,12 @@
 package com.fd.luckyblog.admin.annotion.AvoidRepeatableCommit;
 
-import com.moxi.mogublog.utils.IpUtils;
-import com.moxi.mogublog.utils.RedisUtil;
-import com.moxi.mogublog.utils.ResultUtil;
-import com.moxi.mogublog.utils.StringUtils;
+import com.fd.luckyblog.utils.IpUtils;
+import com.fd.luckyblog.utils.RedisUtil;
+import com.fd.luckyblog.utils.ResultUtil;
+import com.fd.luckyblog.utils.StringUtils;
 import com.moxi.mogublog.xo.global.RedisConf;
 import com.moxi.mogublog.xo.global.SysConf;
-import com.moxi.mougblog.base.holder.RequestHolder;
+import com.fd.luckyblog.base.holder.RequestHolder;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;

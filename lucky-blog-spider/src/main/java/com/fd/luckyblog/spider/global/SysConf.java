@@ -1,6 +1,6 @@
 package com.fd.luckyblog.spider.global;
 
-import com.moxi.mougblog.base.global.BaseSysConf;
+import com.fd.luckyblog.base.global.BaseSysConf;
 
 /**
  * 系统常量

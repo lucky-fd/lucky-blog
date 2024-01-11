@@ -1,7 +1,7 @@
 package com.fd.luckyblog.search.service;
 
-import com.moxi.mogublog.commons.entity.Blog;
-import com.moxi.mogublog.commons.entity.Tag;
+import com.fd.luckyblog.commons.entity.Blog;
+import com.fd.luckyblog.commons.entity.Tag;
 import com.fd.luckyblog.search.global.SysConf;
 import com.fd.luckyblog.search.mapper.HighlightResultHelper;
 import com.fd.luckyblog.search.pojo.ESBlogIndex;

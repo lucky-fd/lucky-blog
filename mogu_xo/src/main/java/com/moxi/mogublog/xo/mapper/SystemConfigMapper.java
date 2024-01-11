@@ -1,8 +1,8 @@
 package com.moxi.mogublog.xo.mapper;
 
 
-import com.moxi.mogublog.commons.entity.SystemConfig;
-import com.moxi.mougblog.base.mapper.SuperMapper;
+import com.fd.luckyblog.commons.entity.SystemConfig;
+import com.fd.luckyblog.base.mapper.SuperMapper;
 
 /**
  * 系统配置表 Mapper 接口

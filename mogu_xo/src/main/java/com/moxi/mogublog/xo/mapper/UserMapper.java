@@ -1,8 +1,8 @@
 package com.moxi.mogublog.xo.mapper;
 
 
-import com.moxi.mogublog.commons.entity.User;
-import com.moxi.mougblog.base.mapper.SuperMapper;
+import com.fd.luckyblog.commons.entity.User;
+import com.fd.luckyblog.base.mapper.SuperMapper;
 
 /**
  * <p>

@@ -1,9 +1,9 @@
 package com.fd.luckyblog.file.service;
 
-import com.moxi.mogublog.commons.entity.File;
-import com.moxi.mogublog.commons.entity.SystemConfig;
-import com.moxi.mougblog.base.service.SuperService;
-import com.moxi.mougblog.base.vo.FileVO;
+import com.fd.luckyblog.commons.entity.File;
+import com.fd.luckyblog.commons.entity.SystemConfig;
+import com.fd.luckyblog.base.service.SuperService;
+import com.fd.luckyblog.base.vo.FileVO;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletRequest;

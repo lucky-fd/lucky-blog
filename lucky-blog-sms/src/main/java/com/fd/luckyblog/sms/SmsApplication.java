@@ -13,11 +13,11 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
 @EnableDiscoveryClient
 @EnableRabbit
-@EnableFeignClients("com.moxi.mogublog.commons.feign")
+@EnableFeignClients("com.fd.luckyblog.commons.feign")
 @ComponentScan(basePackages = {
-        "com.moxi.mogublog.utils",
-        "com.moxi.mogublog.commons.config.feign",
-        "com.moxi.mogublog.commons.fallback",
+        "com.fd.luckyblog.utils",
+        "com.fd.luckyblog.commons.config.feign",
+        "com.fd.luckyblog.commons.fallback",
         "com.fd.luckyblog.sms",
 })
 public class SmsApplication {

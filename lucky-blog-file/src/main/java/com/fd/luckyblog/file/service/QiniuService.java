@@ -1,6 +1,6 @@
 package com.fd.luckyblog.file.service;
 
-import com.moxi.mogublog.commons.entity.SystemConfig;
+import com.fd.luckyblog.commons.entity.SystemConfig;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;

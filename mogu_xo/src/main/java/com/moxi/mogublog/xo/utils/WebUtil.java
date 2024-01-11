@@ -1,20 +1,18 @@
 package com.moxi.mogublog.xo.utils;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.moxi.mogublog.commons.entity.SystemConfig;
-import com.moxi.mogublog.utils.JsonUtils;
-import com.moxi.mogublog.utils.RedisUtil;
-import com.moxi.mogublog.utils.ResultUtil;
+import com.fd.luckyblog.commons.entity.SystemConfig;
+import com.fd.luckyblog.utils.JsonUtils;
+import com.fd.luckyblog.utils.RedisUtil;
 import com.moxi.mogublog.xo.global.MessageConf;
 import com.moxi.mogublog.xo.global.RedisConf;
 import com.moxi.mogublog.xo.global.SQLConf;
 import com.moxi.mogublog.xo.global.SysConf;
 import com.moxi.mogublog.xo.service.SystemConfigService;
-import com.moxi.mougblog.base.enums.EFilePriority;
-import com.moxi.mougblog.base.enums.EOpenStatus;
-import com.moxi.mougblog.base.enums.EStatus;
-import com.moxi.mougblog.base.exception.exceptionType.QueryException;
-import com.moxi.mougblog.base.global.ErrorCode;
+import com.fd.luckyblog.base.enums.EFilePriority;
+import com.fd.luckyblog.base.enums.EStatus;
+import com.fd.luckyblog.base.exception.exceptionType.QueryException;
+import com.fd.luckyblog.base.global.ErrorCode;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -180,7 +178,7 @@ public class WebUtil {
      * @return
      */
     public <T> T getData(String result, Class<T> beanType) {
-        if (com.moxi.mogublog.utils.StringUtils.isEmpty(result)) {
+        if (com.fd.luckyblog.utils.StringUtils.isEmpty(result)) {
             return null;
         }
         Map<String, Object> dataMap = (Map<String, Object>) JsonUtils.jsonToObject(result, Map.class);

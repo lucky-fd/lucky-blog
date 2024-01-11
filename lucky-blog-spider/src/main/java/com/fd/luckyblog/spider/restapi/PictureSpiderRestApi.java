@@ -3,7 +3,7 @@ package com.fd.luckyblog.spider.restapi;
 import com.fd.luckyblog.spider.entity.PictureSpider;
 import com.fd.luckyblog.spider.pipeline.PicturePieline;
 import com.fd.luckyblog.spider.processer.PictureProcesser;
-import com.moxi.mogublog.utils.ResultUtil;
+import com.fd.luckyblog.utils.ResultUtil;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;

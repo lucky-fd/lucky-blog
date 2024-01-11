@@ -1,9 +1,9 @@
 package com.moxi.mogublog.xo.service.impl;
 
-import com.moxi.mogublog.commons.entity.CommentReport;
+import com.fd.luckyblog.commons.entity.CommentReport;
 import com.moxi.mogublog.xo.mapper.CommentReportMapper;
 import com.moxi.mogublog.xo.service.CommentReportService;
-import com.moxi.mougblog.base.serviceImpl.SuperServiceImpl;
+import com.fd.luckyblog.base.serviceImpl.SuperServiceImpl;
 import org.springframework.stereotype.Service;
 
 /**

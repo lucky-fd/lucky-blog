@@ -1,8 +1,8 @@
 package com.moxi.mogublog.xo.service;
 
-import com.moxi.mogublog.commons.entity.Admin;
+import com.fd.luckyblog.commons.entity.Admin;
 import com.moxi.mogublog.xo.vo.AdminVO;
-import com.moxi.mougblog.base.service.SuperService;
+import com.fd.luckyblog.base.service.SuperService;
 
 import java.util.List;
 

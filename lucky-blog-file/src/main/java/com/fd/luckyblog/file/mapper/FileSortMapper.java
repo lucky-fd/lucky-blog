@@ -1,8 +1,7 @@
 package com.fd.luckyblog.file.mapper;
 
-import com.moxi.mogublog.commons.entity.FileSort;
-import com.moxi.mougblog.base.mapper.SuperMapper;
-import org.apache.ibatis.annotations.Mapper;
+import com.fd.luckyblog.commons.entity.FileSort;
+import com.fd.luckyblog.base.mapper.SuperMapper;
 
 /**
  * Mapper 接口

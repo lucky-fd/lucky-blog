@@ -1,8 +1,8 @@
 package com.moxi.mogublog.xo.service;
 
-import com.moxi.mogublog.commons.entity.WebConfig;
+import com.fd.luckyblog.commons.entity.WebConfig;
 import com.moxi.mogublog.xo.vo.WebConfigVO;
-import com.moxi.mougblog.base.service.SuperService;
+import com.fd.luckyblog.base.service.SuperService;
 
 /**
  * 网站配置表 服务类

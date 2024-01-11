@@ -4,7 +4,7 @@ package com.fd.luckyblog.spider.service.impl;
 import com.fd.luckyblog.spider.entity.BlogSpider;
 import com.fd.luckyblog.spider.mapper.BlogSpiderMapper;
 import com.fd.luckyblog.spider.service.BlogSpiderService;
-import com.moxi.mougblog.base.serviceImpl.SuperServiceImpl;
+import com.fd.luckyblog.base.serviceImpl.SuperServiceImpl;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 

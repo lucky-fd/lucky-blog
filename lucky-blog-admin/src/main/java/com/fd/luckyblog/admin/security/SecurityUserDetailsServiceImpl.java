@@ -2,8 +2,8 @@ package com.fd.luckyblog.admin.security;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.fd.luckyblog.admin.global.SQLConf;
-import com.moxi.mogublog.commons.entity.Admin;
-import com.moxi.mogublog.commons.entity.Role;
+import com.fd.luckyblog.commons.entity.Admin;
+import com.fd.luckyblog.commons.entity.Role;
 import com.moxi.mogublog.xo.global.SysConf;
 import com.moxi.mogublog.xo.service.AdminService;
 import com.moxi.mogublog.xo.service.RoleService;

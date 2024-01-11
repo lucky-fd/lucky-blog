@@ -1,8 +1,8 @@
 package com.moxi.mogublog.xo.mapper;
 
 
-import com.moxi.mogublog.commons.entity.WebConfig;
-import com.moxi.mougblog.base.mapper.SuperMapper;
+import com.fd.luckyblog.commons.entity.WebConfig;
+import com.fd.luckyblog.base.mapper.SuperMapper;
 
 /**
  * 网站配置表 Mapper 接口

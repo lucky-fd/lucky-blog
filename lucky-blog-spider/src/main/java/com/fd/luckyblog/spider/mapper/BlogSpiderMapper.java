@@ -2,7 +2,7 @@ package com.fd.luckyblog.spider.mapper;
 
 
 import com.fd.luckyblog.spider.entity.BlogSpider;
-import com.moxi.mougblog.base.mapper.SuperMapper;
+import com.fd.luckyblog.base.mapper.SuperMapper;
 
 /**
  * <p>

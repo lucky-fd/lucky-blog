@@ -1,13 +1,13 @@
 package com.fd.luckyblog.admin.restapi;
 
 import com.fd.luckyblog.admin.global.SysConf;
-import com.moxi.mogublog.utils.ResultUtil;
+import com.fd.luckyblog.utils.ResultUtil;
 import com.moxi.mogublog.xo.service.BlogService;
 import com.moxi.mogublog.xo.service.CommentService;
 import com.moxi.mogublog.xo.service.UserService;
 import com.moxi.mogublog.xo.service.WebVisitService;
-import com.moxi.mougblog.base.enums.EStatus;
-import com.moxi.mougblog.base.global.Constants;
+import com.fd.luckyblog.base.enums.EStatus;
+import com.fd.luckyblog.base.global.Constants;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;

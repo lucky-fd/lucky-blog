@@ -1,9 +1,9 @@
 package com.moxi.mogublog.xo.service;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.moxi.mogublog.commons.entity.ExceptionLog;
+import com.fd.luckyblog.commons.entity.ExceptionLog;
 import com.moxi.mogublog.xo.vo.ExceptionLogVO;
-import com.moxi.mougblog.base.service.SuperService;
+import com.fd.luckyblog.base.service.SuperService;
 
 /**
  * 操作异常日志 服务类

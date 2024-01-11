@@ -1,6 +1,6 @@
 package com.fd.luckyblog.search.global;
 
-import com.moxi.mougblog.base.global.BaseMessageConf;
+import com.fd.luckyblog.base.global.BaseMessageConf;
 
 /**
  * 消息通知

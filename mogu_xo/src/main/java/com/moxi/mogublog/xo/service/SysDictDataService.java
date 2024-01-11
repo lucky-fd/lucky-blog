@@ -1,9 +1,9 @@
 package com.moxi.mogublog.xo.service;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.moxi.mogublog.commons.entity.SysDictData;
+import com.fd.luckyblog.commons.entity.SysDictData;
 import com.moxi.mogublog.xo.vo.SysDictDataVO;
-import com.moxi.mougblog.base.service.SuperService;
+import com.fd.luckyblog.base.service.SuperService;
 
 import java.util.List;
 import java.util.Map;

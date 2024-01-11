@@ -1,14 +1,14 @@
 package com.fd.luckyblog.file.service.impl;
 
-import com.moxi.mogublog.commons.entity.FileSort;
+import com.fd.luckyblog.commons.entity.FileSort;
 import com.fd.luckyblog.file.service.FileSortService;
 import com.fd.luckyblog.file.service.LocalFileService;
-import com.moxi.mogublog.utils.DateUtils;
-import com.moxi.mogublog.utils.FileUtils;
-import com.moxi.mogublog.utils.StringUtils;
-import com.moxi.mougblog.base.exception.exceptionType.InsertException;
-import com.moxi.mougblog.base.global.Constants;
-import com.moxi.mougblog.base.global.ErrorCode;
+import com.fd.luckyblog.utils.DateUtils;
+import com.fd.luckyblog.utils.FileUtils;
+import com.fd.luckyblog.utils.StringUtils;
+import com.fd.luckyblog.base.exception.exceptionType.InsertException;
+import com.fd.luckyblog.base.global.Constants;
+import com.fd.luckyblog.base.global.ErrorCode;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

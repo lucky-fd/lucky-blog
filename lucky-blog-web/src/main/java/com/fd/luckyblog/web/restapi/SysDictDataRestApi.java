@@ -1,7 +1,7 @@
 package com.fd.luckyblog.web.restapi;
 
 
-import com.moxi.mogublog.utils.ResultUtil;
+import com.fd.luckyblog.utils.ResultUtil;
 import com.fd.luckyblog.web.global.SysConf;
 import com.moxi.mogublog.xo.service.SysDictDataService;
 import io.swagger.annotations.Api;

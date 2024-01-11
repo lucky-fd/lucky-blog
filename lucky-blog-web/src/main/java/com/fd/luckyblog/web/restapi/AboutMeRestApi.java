@@ -3,10 +3,10 @@ package com.fd.luckyblog.web.restapi;
 
 import com.fd.luckyblog.web.annotion.log.BussinessLog;
 import com.fd.luckyblog.web.global.SysConf;
-import com.moxi.mogublog.utils.ResultUtil;
+import com.fd.luckyblog.utils.ResultUtil;
 import com.moxi.mogublog.xo.service.AdminService;
 import com.moxi.mogublog.xo.service.WebConfigService;
-import com.moxi.mougblog.base.enums.EBehavior;
+import com.fd.luckyblog.base.enums.EBehavior;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;

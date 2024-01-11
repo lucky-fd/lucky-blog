@@ -1,13 +1,13 @@
 package com.fd.luckyblog.web.annotion.log;
 
-import com.moxi.mogublog.commons.entity.WebVisit;
-import com.moxi.mogublog.utils.IpUtils;
-import com.moxi.mogublog.utils.RedisUtil;
-import com.moxi.mogublog.utils.StringUtils;
+import com.fd.luckyblog.commons.entity.WebVisit;
+import com.fd.luckyblog.utils.IpUtils;
+import com.fd.luckyblog.utils.RedisUtil;
+import com.fd.luckyblog.utils.StringUtils;
 import com.moxi.mogublog.web.global.RedisConf;
 import com.moxi.mogublog.web.global.SysConf;
-import com.moxi.mougblog.base.global.Constants;
-import com.moxi.mougblog.base.holder.AbstractRequestAwareRunnable;
+import com.fd.luckyblog.base.global.Constants;
+import com.fd.luckyblog.base.holder.AbstractRequestAwareRunnable;
 
 import java.util.concurrent.TimeUnit;
 

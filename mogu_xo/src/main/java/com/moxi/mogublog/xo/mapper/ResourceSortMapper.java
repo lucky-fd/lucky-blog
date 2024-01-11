@@ -1,7 +1,7 @@
 package com.moxi.mogublog.xo.mapper;
 
-import com.moxi.mogublog.commons.entity.ResourceSort;
-import com.moxi.mougblog.base.mapper.SuperMapper;
+import com.fd.luckyblog.commons.entity.ResourceSort;
+import com.fd.luckyblog.base.mapper.SuperMapper;
 
 /**
  * 资源分类表 Mapper 接口

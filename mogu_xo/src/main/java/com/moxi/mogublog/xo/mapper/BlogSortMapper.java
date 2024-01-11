@@ -1,7 +1,7 @@
 package com.moxi.mogublog.xo.mapper;
 
-import com.moxi.mogublog.commons.entity.BlogSort;
-import com.moxi.mougblog.base.mapper.SuperMapper;
+import com.fd.luckyblog.commons.entity.BlogSort;
+import com.fd.luckyblog.base.mapper.SuperMapper;
 
 /**
  * <p>

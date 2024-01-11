@@ -1,8 +1,8 @@
 package com.moxi.mogublog.xo.service;
 
-import com.moxi.mogublog.commons.entity.CategoryMenu;
+import com.fd.luckyblog.commons.entity.CategoryMenu;
 import com.moxi.mogublog.xo.vo.CategoryMenuVO;
-import com.moxi.mougblog.base.service.SuperService;
+import com.fd.luckyblog.base.service.SuperService;
 
 import java.util.List;
 import java.util.Map;

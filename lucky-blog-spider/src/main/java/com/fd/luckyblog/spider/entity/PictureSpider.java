@@ -1,6 +1,6 @@
 package com.fd.luckyblog.spider.entity;
 
-import com.moxi.mougblog.base.vo.FileVO;
+import com.fd.luckyblog.base.vo.FileVO;
 import lombok.Data;
 
 /**

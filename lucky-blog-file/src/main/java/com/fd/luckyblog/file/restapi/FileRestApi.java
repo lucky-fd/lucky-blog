@@ -2,11 +2,11 @@ package com.fd.luckyblog.file.restapi;
 
 
 import com.fd.luckyblog.file.util.MinioUtil;
-import com.moxi.mogublog.commons.entity.SystemConfig;
+import com.fd.luckyblog.commons.entity.SystemConfig;
 import com.fd.luckyblog.file.service.FileService;
 import com.fd.luckyblog.file.util.FeignUtil;
-import com.moxi.mougblog.base.validator.group.GetList;
-import com.moxi.mougblog.base.vo.FileVO;
+import com.fd.luckyblog.base.validator.group.GetList;
+import com.fd.luckyblog.base.vo.FileVO;
 import io.swagger.annotations.*;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

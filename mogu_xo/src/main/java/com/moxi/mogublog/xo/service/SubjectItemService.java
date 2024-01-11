@@ -1,9 +1,9 @@
 package com.moxi.mogublog.xo.service;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.moxi.mogublog.commons.entity.SubjectItem;
+import com.fd.luckyblog.commons.entity.SubjectItem;
 import com.moxi.mogublog.xo.vo.SubjectItemVO;
-import com.moxi.mougblog.base.service.SuperService;
+import com.fd.luckyblog.base.service.SuperService;
 
 import java.util.List;
 

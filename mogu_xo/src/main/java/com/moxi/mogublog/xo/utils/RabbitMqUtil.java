@@ -1,6 +1,6 @@
 package com.moxi.mogublog.xo.utils;
 
-import com.moxi.mogublog.commons.entity.User;
+import com.fd.luckyblog.commons.entity.User;
 import com.moxi.mogublog.xo.global.SysConf;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;

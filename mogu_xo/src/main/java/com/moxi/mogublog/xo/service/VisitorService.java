@@ -1,7 +1,7 @@
 package com.moxi.mogublog.xo.service;
 
-import com.moxi.mogublog.commons.entity.Visitor;
-import com.moxi.mougblog.base.service.SuperService;
+import com.fd.luckyblog.commons.entity.Visitor;
+import com.fd.luckyblog.base.service.SuperService;
 
 /**
  * 博主表 服务类
