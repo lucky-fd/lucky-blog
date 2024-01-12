@@ -1,13 +1,13 @@
 package com.fd.luckyblog.web.restapi;
 
-import com.moxi.mogublog.utils.ResultUtil;
+import com.fd.luckyblog.utils.ResultUtil;
 import com.fd.luckyblog.web.global.SysConf;
-import com.moxi.mogublog.xo.service.SubjectItemService;
-import com.moxi.mogublog.xo.service.SubjectService;
-import com.moxi.mogublog.xo.vo.SubjectItemVO;
-import com.moxi.mogublog.xo.vo.SubjectVO;
-import com.moxi.mougblog.base.exception.ThrowableUtils;
-import com.moxi.mougblog.base.validator.group.GetList;
+import com.fd.luckyblog.xo.service.SubjectItemService;
+import com.fd.luckyblog.xo.service.SubjectService;
+import com.fd.luckyblog.xo.vo.SubjectItemVO;
+import com.fd.luckyblog.xo.vo.SubjectVO;
+import com.fd.luckyblog.base.exception.ThrowableUtils;
+import com.fd.luckyblog.base.validator.group.GetList;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;

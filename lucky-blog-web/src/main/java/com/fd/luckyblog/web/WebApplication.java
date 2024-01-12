@@ -1,5 +1,6 @@
 package com.fd.luckyblog.web;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
@@ -19,14 +20,15 @@ import java.util.TimeZone;
 @EnableOpenApi
 @EnableDiscoveryClient
 @EnableAsync
-@EnableFeignClients("com.moxi.mogublog.commons.feign")
+@EnableFeignClients("com.fd.luckyblog.commons.feign")
 @ComponentScan(basePackages = {
-        "com.moxi.mogublog.commons.config",
-        "com.moxi.mogublog.commons.fallback",
-        "com.moxi.mogublog.utils",
-        "com.moxi.mogublog.xo.utils",
+        "com.fd.luckyblog.commons.config",
+        "com.fd.luckyblog.commons.fallback",
+        "com.fd.luckyblog.utils",
+        "com.fd.luckyblog.xo.utils",
         "com.fd.luckyblog.web",
-        "com.moxi.mogublog.xo.service"})
+        "com.fd.luckyblog.xo.service"})
+@MapperScan("com.fd.luckyblog.xo.mapper")
 public class WebApplication {
 
     public static void main(String[] args) {

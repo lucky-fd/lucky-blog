@@ -1,8 +1,8 @@
 package com.fd.luckyblog.admin.security;
 
-import com.moxi.mogublog.commons.config.security.SecurityUser;
-import com.moxi.mogublog.commons.entity.Admin;
-import com.moxi.mougblog.base.enums.EStatus;
+import com.fd.luckyblog.commons.config.security.SecurityUser;
+import com.fd.luckyblog.commons.entity.Admin;
+import com.fd.luckyblog.base.enums.EStatus;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 

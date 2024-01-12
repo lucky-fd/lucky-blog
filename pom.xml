@@ -2,12 +2,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.moxi</groupId>
-    <artifactId>mogu_blog</artifactId>
+    <groupId>com.fd</groupId>
+    <artifactId>lucky-blog</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>mogu_blog</name>
-    <description>a blog web</description>
+    <name>lucky-blog</name>
+    <description>一个个人博客网站项目</description>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -51,19 +51,19 @@
 
 
     <modules>
-        <module>mogu_utils</module>
-        <module>mogu_base</module>
-        <module>mogu_xo</module>
+        <module>lucky-blog-base</module>
+        <module>lucky-blog-xo</module>
         <module>lucky-blog-admin</module>
         <module>lucky-blog-web</module>
         <module>lucky-blog-file</module>
         <module>lucky-blog-sms</module>
-        <module>mogu_search</module>
-        <module>mogu_monitor</module>
+        <module>lucky-blog-search</module>
+        <module>lucky-blog-monitor</module>
         <module>lucky-blog-gateway</module>
-        <module>mogu_zipkin</module>
-        <module>mogu_spider</module>
-        <module>mogu_commons</module>
+        <module>lucky-blog-zipkin</module>
+        <module>lucky-blog-spider</module>
+        <module>lucky-blog-commons</module>
+        <module>lucky-blog-utils</module>
     </modules>
 
     <dependencyManagement>

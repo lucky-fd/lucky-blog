@@ -3,11 +3,11 @@ package com.fd.luckyblog.admin.restapi;
 
 import com.fd.luckyblog.admin.global.SysConf;
 import com.fd.luckyblog.admin.annotion.AuthorityVerify.AuthorityVerify;
-import com.moxi.mogublog.utils.ResultUtil;
-import com.moxi.mogublog.xo.service.WebVisitService;
-import com.moxi.mogublog.xo.vo.WebVisitVO;
-import com.moxi.mougblog.base.exception.ThrowableUtils;
-import com.moxi.mougblog.base.validator.group.GetList;
+import com.fd.luckyblog.utils.ResultUtil;
+import com.fd.luckyblog.xo.service.WebVisitService;
+import com.fd.luckyblog.xo.vo.WebVisitVO;
+import com.fd.luckyblog.base.exception.ThrowableUtils;
+import com.fd.luckyblog.base.validator.group.GetList;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;

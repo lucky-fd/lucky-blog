@@ -1,11 +1,11 @@
 package com.fd.luckyblog.web.annotion.requestLimit;
 
-import com.moxi.mogublog.utils.AspectUtil;
-import com.moxi.mogublog.utils.IpUtils;
-import com.moxi.mogublog.utils.RedisUtil;
-import com.moxi.mogublog.utils.ResultUtil;
-import com.moxi.mogublog.web.global.RedisConf;
-import com.moxi.mougblog.base.global.ECode;
+import com.fd.luckyblog.base.global.ECode;
+import com.fd.luckyblog.utils.AspectUtil;
+import com.fd.luckyblog.utils.IpUtils;
+import com.fd.luckyblog.utils.RedisUtil;
+import com.fd.luckyblog.utils.ResultUtil;
+import com.fd.luckyblog.web.global.RedisConf;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;

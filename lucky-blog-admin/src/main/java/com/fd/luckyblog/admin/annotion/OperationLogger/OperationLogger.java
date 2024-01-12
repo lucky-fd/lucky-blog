@@ -1,6 +1,6 @@
 package com.fd.luckyblog.admin.annotion.OperationLogger;
 
-import com.moxi.mougblog.base.enums.PlatformEnum;
+import com.fd.luckyblog.base.enums.PlatformEnum;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

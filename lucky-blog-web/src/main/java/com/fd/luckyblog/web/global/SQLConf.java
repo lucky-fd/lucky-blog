@@ -1,6 +1,6 @@
 package com.fd.luckyblog.web.global;
 
-import com.moxi.mougblog.base.global.BaseSQLConf;
+import com.fd.luckyblog.base.global.BaseSQLConf;
 
 /**
  * SQL字段常量

@@ -1,10 +1,10 @@
 package com.fd.luckyblog.web.config;
 
-import com.moxi.mogublog.utils.JsonUtils;
-import com.moxi.mogublog.utils.StringUtils;
-import com.moxi.mogublog.web.global.RedisConf;
-import com.moxi.mogublog.web.global.SysConf;
-import com.moxi.mougblog.base.global.Constants;
+import com.fd.luckyblog.base.global.Constants;
+import com.fd.luckyblog.utils.JsonUtils;
+import com.fd.luckyblog.utils.StringUtils;
+import com.fd.luckyblog.web.global.RedisConf;
+import com.fd.luckyblog.web.global.SysConf;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;

@@ -1,5 +1,6 @@
 package com.fd.luckyblog.admin;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.amqp.rabbit.annotation.EnableRabbit;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -25,15 +26,16 @@ import java.util.TimeZone;
 @EnableDiscoveryClient
 @EnableCaching
 @EnableRabbit
-@EnableFeignClients("com.moxi.mogublog.commons.feign")
+@EnableFeignClients("com.fd.luckyblog.commons.feign")
 @ComponentScan(basePackages = {
-        "com.moxi.mogublog.commons.config",
-        "com.moxi.mogublog.commons.fallback",
-        "com.moxi.mogublog.utils",
+        "com.fd.luckyblog.commons.config",
+        "com.fd.luckyblog.commons.fallback",
+        "com.fd.luckyblog.utils",
         "com.fd.luckyblog.admin",
-        "com.moxi.mogublog.xo.utils",
-        "com.moxi.mogublog.xo.service"
+        "com.fd.luckyblog.xo.utils",
+        "com.fd.luckyblog.xo.service"
 })
+@MapperScan("com.fd.luckyblog.xo.mapper")
 public class AdminApplication {
 
     public static void main(String[] args) {

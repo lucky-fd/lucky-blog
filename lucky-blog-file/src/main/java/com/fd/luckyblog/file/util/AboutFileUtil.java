@@ -1,6 +1,6 @@
 package com.fd.luckyblog.file.util;
 
-import com.moxi.mougblog.base.global.Constants;
+import com.fd.luckyblog.base.global.Constants;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.ArrayUtils;
 

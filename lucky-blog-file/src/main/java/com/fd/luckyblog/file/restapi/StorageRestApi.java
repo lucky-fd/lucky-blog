@@ -1,11 +1,11 @@
 package com.fd.luckyblog.file.restapi;
 
-import com.moxi.mogublog.commons.entity.NetworkDisk;
-import com.moxi.mogublog.commons.entity.Storage;
+import com.fd.luckyblog.commons.entity.NetworkDisk;
+import com.fd.luckyblog.commons.entity.Storage;
 import com.fd.luckyblog.file.service.StorageService;
-import com.moxi.mogublog.utils.FileUtils;
-import com.moxi.mogublog.utils.ResultUtil;
-import com.moxi.mougblog.base.holder.RequestHolder;
+import com.fd.luckyblog.utils.FileUtils;
+import com.fd.luckyblog.utils.ResultUtil;
+import com.fd.luckyblog.base.holder.RequestHolder;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiParam;
 import org.springframework.beans.factory.annotation.Value;

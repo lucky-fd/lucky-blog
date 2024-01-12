@@ -1,10 +1,10 @@
 package com.fd.luckyblog.file.util;
 
-import com.moxi.mogublog.commons.entity.SystemConfig;
+import com.fd.luckyblog.commons.entity.SystemConfig;
 import com.fd.luckyblog.file.global.MessageConf;
-import com.moxi.mogublog.utils.FileUtils;
-import com.moxi.mogublog.utils.ResultUtil;
-import com.moxi.mougblog.base.global.Constants;
+import com.fd.luckyblog.utils.FileUtils;
+import com.fd.luckyblog.utils.ResultUtil;
+import com.fd.luckyblog.base.global.Constants;
 import io.minio.*;
 import io.minio.messages.DeleteObject;
 import lombok.extern.slf4j.Slf4j;

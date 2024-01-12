@@ -1,8 +1,8 @@
 package com.fd.luckyblog.file.service;
 
 import com.fd.luckyblog.file.vo.NetworkDiskVO;
-import com.moxi.mogublog.commons.entity.NetworkDisk;
-import com.moxi.mougblog.base.service.SuperService;
+import com.fd.luckyblog.commons.entity.NetworkDisk;
+import com.fd.luckyblog.base.service.SuperService;
 
 import java.util.List;
 import java.util.Map;

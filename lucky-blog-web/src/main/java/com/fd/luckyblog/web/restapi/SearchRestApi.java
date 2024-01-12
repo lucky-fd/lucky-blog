@@ -1,13 +1,13 @@
 package com.fd.luckyblog.web.restapi;
 
-import com.moxi.mogublog.utils.ResultUtil;
-import com.moxi.mogublog.utils.StringUtils;
+import com.fd.luckyblog.utils.ResultUtil;
+import com.fd.luckyblog.utils.StringUtils;
 import com.fd.luckyblog.web.annotion.log.BussinessLog;
 import com.fd.luckyblog.web.global.MessageConf;
 import com.fd.luckyblog.web.global.SysConf;
-import com.moxi.mogublog.xo.service.BlogService;
-import com.moxi.mogublog.xo.service.SystemConfigService;
-import com.moxi.mougblog.base.enums.EBehavior;
+import com.fd.luckyblog.xo.service.BlogService;
+import com.fd.luckyblog.xo.service.SystemConfigService;
+import com.fd.luckyblog.base.enums.EBehavior;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;

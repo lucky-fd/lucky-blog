@@ -3,10 +3,10 @@ package com.fd.luckyblog.admin.restapi;
 
 import com.fd.luckyblog.admin.annotion.AuthorityVerify.AuthorityVerify;
 import com.fd.luckyblog.admin.annotion.OperationLogger.OperationLogger;
-import com.moxi.mogublog.utils.ResultUtil;
-import com.moxi.mogublog.xo.service.WebConfigService;
-import com.moxi.mogublog.xo.vo.WebConfigVO;
-import com.moxi.mougblog.base.validator.group.Update;
+import com.fd.luckyblog.utils.ResultUtil;
+import com.fd.luckyblog.xo.service.WebConfigService;
+import com.fd.luckyblog.xo.vo.WebConfigVO;
+import com.fd.luckyblog.base.validator.group.Update;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;

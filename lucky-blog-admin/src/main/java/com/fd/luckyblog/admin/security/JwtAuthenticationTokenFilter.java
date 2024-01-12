@@ -2,11 +2,11 @@ package com.fd.luckyblog.admin.security;
 
 import com.fd.luckyblog.admin.global.RedisConf;
 import com.fd.luckyblog.admin.global.SysConf;
-import com.moxi.mogublog.commons.config.jwt.Audience;
-import com.moxi.mogublog.commons.config.jwt.JwtTokenUtil;
-import com.moxi.mogublog.commons.entity.OnlineAdmin;
-import com.moxi.mogublog.utils.*;
-import com.moxi.mougblog.base.global.Constants;
+import com.fd.luckyblog.base.global.Constants;
+import com.fd.luckyblog.commons.config.jwt.Audience;
+import com.fd.luckyblog.commons.config.jwt.JwtTokenUtil;
+import com.fd.luckyblog.commons.entity.OnlineAdmin;
+import com.fd.luckyblog.utils.*;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

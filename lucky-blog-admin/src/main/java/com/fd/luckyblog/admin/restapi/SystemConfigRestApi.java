@@ -3,9 +3,9 @@ package com.fd.luckyblog.admin.restapi;
 
 import com.fd.luckyblog.admin.annotion.AuthorityVerify.AuthorityVerify;
 import com.fd.luckyblog.admin.annotion.OperationLogger.OperationLogger;
-import com.moxi.mogublog.utils.ResultUtil;
-import com.moxi.mogublog.xo.service.SystemConfigService;
-import com.moxi.mogublog.xo.vo.SystemConfigVO;
+import com.fd.luckyblog.utils.ResultUtil;
+import com.fd.luckyblog.xo.service.SystemConfigService;
+import com.fd.luckyblog.xo.vo.SystemConfigVO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;

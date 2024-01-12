@@ -1,9 +1,9 @@
 package com.fd.luckyblog.file.service.impl;
 
-import com.moxi.mogublog.commons.entity.FileSort;
+import com.fd.luckyblog.commons.entity.FileSort;
 import com.fd.luckyblog.file.mapper.FileSortMapper;
 import com.fd.luckyblog.file.service.FileSortService;
-import com.moxi.mougblog.base.serviceImpl.SuperServiceImpl;
+import com.fd.luckyblog.base.serviceImpl.SuperServiceImpl;
 import org.springframework.stereotype.Service;
 
 /**

@@ -1,7 +1,7 @@
 package com.fd.luckyblog.file.mapper;
 
-import com.moxi.mogublog.commons.entity.Storage;
-import com.moxi.mougblog.base.mapper.SuperMapper;
+import com.fd.luckyblog.commons.entity.Storage;
+import com.fd.luckyblog.base.mapper.SuperMapper;
 
 /**
  * Mapper 接口
