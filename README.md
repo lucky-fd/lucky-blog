@@ -122,7 +122,7 @@
 
 - **后台登录**：用户：admin，密码：mogu2018
 - 前台登录：用户：mogu2018，密码：mogu2018
-- **Mysql**：用户：root，密码：mysql123.
+- **Mysql**：用户：root，密码：fd123456.
 - **Redis**：密码：mogu2018
 - **远程SSH初始密码**：用户：root，密码：mogu2018
 - **RabbitMQ管理页面：** 用户：admin，密码：mogu2018
