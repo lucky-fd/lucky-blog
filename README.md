@@ -123,9 +123,9 @@
 - **后台登录**：用户：admin，密码：mogu2018
 - 前台登录：用户：mogu2018，密码：mogu2018
 - **Mysql**：用户：root，密码：fd123456.
-- **Redis**：密码：mogu2018
+- **Redis**：密码：fd123.
 - **远程SSH初始密码**：用户：root，密码：mogu2018
-- **RabbitMQ管理页面：** 用户：admin，密码：mogu2018
+- **RabbitMQ管理页面：** 用户：fd，密码：123456
 - **Nacos管理页面：** 用户：nacos，密码：nacos
 - **Sentinel管理页面：** 用户：sentinel，密码：sentinel
 - **蘑菇博客监控页面**：用户：user，密码：password123
