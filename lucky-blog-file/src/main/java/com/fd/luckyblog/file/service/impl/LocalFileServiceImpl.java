@@ -22,6 +22,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
 import java.net.URLConnection;
+import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -61,19 +62,19 @@ public class LocalFileServiceImpl implements LocalFileService {
     @Override
     public String uploadPictureByUrl(String itemUrl, FileSort fileSort) {
         String sortUrl = fileSort.getUrl();
-        //判断url是否为空，如果为空，使用默认
+        // 判断url是否为空，如果为空，使用默认
         if (StringUtils.isEmpty(sortUrl)) {
             sortUrl = "base/common/";
         } else {
             sortUrl = fileSort.getUrl();
         }
-        //获取新文件名 【默认为jpg】
+        // 获取新文件名 【默认为jpg】
         String newFileName = System.currentTimeMillis() + ".jpg";
-        //文件绝对路径
+        // 文件绝对路径
         String newPath = path + sortUrl + "/jpg/" + DateUtils.getYears() + "/"
                 + DateUtils.getMonth() + "/" + DateUtils.getDay() + "/";
 
-        //文件相对路径
+        // 文件相对路径
         String fileUrl = sortUrl + "/jpg/" + DateUtils.getYears() + "/"
                 + DateUtils.getMonth() + "/" + DateUtils.getDay() + "/" + newFileName;
 
@@ -135,16 +136,16 @@ public class LocalFileServiceImpl implements LocalFileService {
      */
     private String uploadSingleFile(MultipartFile multipartFile, FileSort fileSort) throws IOException {
         String sortUrl = fileSort.getUrl();
-        //判断url是否为空，如果为空，使用默认
+        // 判断url是否为空，如果为空，使用默认
         if (StringUtils.isEmpty(sortUrl)) {
             sortUrl = "base/common/";
         } else {
             sortUrl = fileSort.getUrl();
         }
         String oldName = multipartFile.getOriginalFilename();
-        //获取扩展名，默认是jpg
+        // 获取扩展名，默认是jpg
         String picExpandedName = FileUtils.getPicExpandedName(oldName);
-        //获取新文件名
+        // 获取新文件名
         String newFileName = System.currentTimeMillis() + Constants.SYMBOL_POINT + picExpandedName;
 
         String newPath = path + sortUrl + "/" + picExpandedName + "/" + DateUtils.getYears() + "/"
@@ -161,8 +162,21 @@ public class LocalFileServiceImpl implements LocalFileService {
         }
         java.io.File saveFile = new java.io.File(saveUrl);
         // 序列化文件到本地
-        saveFile.createNewFile();
-        multipartFile.transferTo(saveFile);
+        boolean newFile = saveFile.createNewFile();
+
+        try (BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(Files.newOutputStream(saveFile.toPath()));
+             InputStream inputStream = multipartFile.getInputStream();) {
+            byte[] bytes = new byte[8096];
+            int len;
+            while ((len = inputStream.read(bytes)) != -1) {
+                bufferedOutputStream.write(bytes, 0, len);
+            }
+        }
+        /*if (newFile) {
+            multipartFile.transferTo(saveFile);
+        } else {
+            throw new IOException("已存在相同文件");
+        }*/
         return picurl;
     }
 }
